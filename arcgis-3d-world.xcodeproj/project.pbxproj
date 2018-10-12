@@ -15,8 +15,6 @@
 		F94F15B021405C4600021011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F15AF21405C4600021011 /* AppDelegate.swift */; };
 		F94F15B721405C4600021011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94F15B621405C4600021011 /* Assets.xcassets */; };
 		F94F15BA21405C4600021011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94F15B821405C4600021011 /* LaunchScreen.storyboard */; };
-		F94F15C521405C4700021011 /* arcgis_helloworldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F15C421405C4700021011 /* arcgis_helloworldTests.swift */; };
-		F94F15D021405C4700021011 /* arcgis_helloworldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F15CF21405C4700021011 /* arcgis_helloworldUITests.swift */; };
 		F95B1312216D81EE00F20998 /* sphere.dae in Resources */ = {isa = PBXBuildFile; fileRef = F95B1311216D81EE00F20998 /* sphere.dae */; settings = {ATTRIBUTES = ("--decompress", ); }; };
 /* End PBXBuildFile section */
 
@@ -54,11 +52,7 @@
 		F94F15B921405C4600021011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F94F15BB21405C4600021011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F94F15C021405C4700021011 /* arcgis-3d-worldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arcgis-3d-worldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F94F15C421405C4700021011 /* arcgis_helloworldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arcgis_helloworldTests.swift; sourceTree = "<group>"; };
-		F94F15C621405C4700021011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F94F15CB21405C4700021011 /* arcgis-3d-worldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arcgis-3d-worldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F94F15CF21405C4700021011 /* arcgis_helloworldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arcgis_helloworldUITests.swift; sourceTree = "<group>"; };
-		F94F15D121405C4700021011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F95B1311216D81EE00F20998 /* sphere.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = sphere.dae; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,8 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				F94F15AE21405C4600021011 /* arcgis-3d-world */,
-				F94F15C321405C4700021011 /* arcgis-helloworldTests */,
-				F94F15CE21405C4700021011 /* arcgis-helloworldUITests */,
 				F94F15AD21405C4600021011 /* Products */,
 				14A909211C1FC30C52D2119D /* Pods */,
 				C9AAD5D2ACC56ADD1C5EB94E /* Frameworks */,
@@ -144,24 +136,6 @@
 				F94F15BB21405C4600021011 /* Info.plist */,
 			);
 			path = "arcgis-3d-world";
-			sourceTree = "<group>";
-		};
-		F94F15C321405C4700021011 /* arcgis-helloworldTests */ = {
-			isa = PBXGroup;
-			children = (
-				F94F15C421405C4700021011 /* arcgis_helloworldTests.swift */,
-				F94F15C621405C4700021011 /* Info.plist */,
-			);
-			path = "arcgis-helloworldTests";
-			sourceTree = "<group>";
-		};
-		F94F15CE21405C4700021011 /* arcgis-helloworldUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F94F15CF21405C4700021011 /* arcgis_helloworldUITests.swift */,
-				F94F15D121405C4700021011 /* Info.plist */,
-			);
-			path = "arcgis-helloworldUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,7 +345,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F94F15C521405C4700021011 /* arcgis_helloworldTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +352,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F94F15D021405C4700021011 /* arcgis_helloworldUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
