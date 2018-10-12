@@ -14,4 +14,4 @@ After completing the setup, you'll be able to see the Navisens location in 3D st
 in Redlands.
 
 Have fun!
-<video src="esri_3d.mp4" width="320" height="200" controls preload></video>
+![Scheme](esri_3d_img.png)
